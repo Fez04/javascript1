@@ -5,8 +5,8 @@ alert(lastname);
 let birthday = new Date();
 result = window.confirm(birthday); */
 
-let birthday = prompt("Whats Your Birthday?", "Please answer in the following format: 1/1/1900");
-confirm(new Date(birthday));
+/*let birthday = prompt("Whats Your Birthday?", "Please answer in the following format: 1/1/1900");
+confirm(new Date(birthday));*/
 
 
 
