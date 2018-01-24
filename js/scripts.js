@@ -1,24 +1,30 @@
-var sentence = 2;
-console.log(sentence);
-{
-const truth = "Ep8 was ....TERRIBLE...:";
-console.log(truth);
-}
-// console.log(truth);
+/*var firstname = prompt("Fist Name");
+console.log(firstname);
+var lastname = prompt("Last Name");
+alert(lastname);
+let birthday = new Date();
+result = window.confirm(birthday); */
+
+let birthday = prompt("Whats Your Birthday?", "Please answer in the following format: 1/1/1900");
+confirm(new Date(birthday));
 
 
-const truth = "Ep8 was ....TERRIBLE...:";
-console.log(truth);
-// console.log(truth);
 
 
-let rightNow = new Date();
-console.log(rightNow);
-//Thu Jan 18 2018 20:43:07 GMT-0800 (Pacific Standard Time);
+//var myArray = ["Hello World", 22, true, {}, null];
+//console.log.myArray.lenth);
 
-var string = "lalalalal";
+/*var myObject = {
+  myString: "Hellow World",
+  magicNumber: 42
+}; */
 
-var newString = new String("lalalalal");
 
-console.log(string.toUpperCase());
-console.log(newString.toUppercase());
+//let HellowMessage =( "hey, there! My book is only $9.99....");
+
+
+/*let confirmMessage = confirm("is your name david?");
+console.log(confirmmessage);*/
+
+/*let promptMessage = prompt("Tell me the password...", "password");
+console.log(promptMessage);*/
